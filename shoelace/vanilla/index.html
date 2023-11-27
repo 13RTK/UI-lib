@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="css/style.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/themes/light.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/themes/dark.css"
+        />
+
+        <script
+            type="module"
+            src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/shoelace-autoloader.js"
+        ></script>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <sl-switch class="switch">Switch</sl-switch>
+            </nav>
+            <br />
+            <main>
+                <form>
+                    <sl-input placeholder="Type something"></sl-input>
+                    <br />
+                    <sl-input
+                        type="password"
+                        placeholder="Password Toggle"
+                        password-toggle
+                    ></sl-input>
+                    <br />
+                    <sl-button>Button</sl-button>
+                </form>
+            </main>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
